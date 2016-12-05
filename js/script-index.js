@@ -44,3 +44,7 @@ function renderActivity(recipe) {
 }
 
 
+function printNews(){
+	$(".callout-news > p").text("NUEVAS RECETAS");
+}
+printNews();
