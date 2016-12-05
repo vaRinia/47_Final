@@ -13,6 +13,12 @@ $(document).ready( function(){
 */
 function renderHighlightedRecipes(recipesArray) {
 	console.log('Recipes: ', recipesArray);
+	$(recipesArray).each(function(index){
+		if(recipesArray[index].hasOwnProperty("highlighted") && recipesArray[index]["highlighted"] === true) {
+			renderRecipe(index);
+			console.log(index);
+		}
+	})
 }
 
 /*

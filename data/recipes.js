@@ -26,6 +26,7 @@ var recipesArray = [
     ],
     "name": "spring-fromage-fort"
   },
+
   {
     "title": "Classic Ragu Bolognese",
     "excerpt": "A certain magic happens as the beef and aromatic vegetables slowly cook down with wine, tomato paste, and broth",
@@ -56,6 +57,7 @@ var recipesArray = [
     ],
     "name": "spring-ragu-bolognese"
   },
+
   {
     "title": "Animal-Cracker Cookies",
     "excerpt": "Create and decorate magical cookies that are as much fun as a day at the circus!",
@@ -81,6 +83,7 @@ var recipesArray = [
     ],
     "name": "spring-animal-cracker-cookies"
   },
+
   {
     "title": "Chicken in Molé",
     "excerpt": "If there is one dish that could be considered Mexican haute cuisine, then Mole Poblano is surely it",
@@ -121,6 +124,7 @@ var recipesArray = [
     ],
     "name": "spring-chicken-in-mole"
   },
+
   {
     "title": "Spanish Asparagus Revuelto",
     "excerpt": "In Spain, wild asparagus is very popular, and it’s a sure sign of spring",
@@ -147,6 +151,7 @@ var recipesArray = [
     ],
     "name": "spring-spanish-asparagus-revuelto"
   },
+
   {
     "title": "Fatted Calf's Meatloaf",
     "highlighted": true,
@@ -193,6 +198,7 @@ var recipesArray = [
     ],
     "name": "spring-meatloaf"
   },
+
   {
     "title": "Lahmacun - Turkish Pizza",
     "excerpt": "",
@@ -230,6 +236,7 @@ var recipesArray = [
     ],
     "name": "spring-lahmacun-turkish-pizza"
   },
+
   {
     "title": "Easiest Spaghetti & Meatballs",
     "excerpt": "No pasta's more iconic than spaghetti and meatballs",
@@ -256,6 +263,7 @@ var recipesArray = [
     ],
     "name": "spring-easiest-spaghetti-and-meatballs"
   },
+
   {
     "title": "Slanted Door's Shaking Beef",
     "excerpt": "Cubes of tender filet mignon are sautéed with red onions and a vinaigrette",
@@ -284,6 +292,7 @@ var recipesArray = [
     ],
     "name": "summer-shaking-beef"
   },
+
   {
     "title": "Bavarian-style Soft Pretzel",
     "excerpt": "",
@@ -307,6 +316,7 @@ var recipesArray = [
     ],
     "name": "summer-bavarian-pretzel"
   },
+
   {
     "title": "Apricots Honey Panna Cotta",
     "highlighted": true,
@@ -331,6 +341,7 @@ var recipesArray = [
     ],
     "name": "summer-apricots-honey-panna-cotta"
   },
+
   {
     "title": "Elderberry Syrup",
     "excerpt": "The gorgeous syrup is great in a glass of sparkling water over ice, dripped some over plain yogurt",
@@ -351,6 +362,7 @@ var recipesArray = [
     ],
     "name": "summer-elderberry-syrup"
   },
+
   {
     "title": "Spaghetti with Lemon & Olive Oil",
     "excerpt": "This is one of those recipes that are almost better off without one",
@@ -375,6 +387,7 @@ var recipesArray = [
     ],
     "name": "summer-spaghetti-lemon-olive"
   },
+
   {
     "title": "Homemade Pasta Dough",
     "excerpt": "",
@@ -394,6 +407,7 @@ var recipesArray = [
     ],
     "name": "summer-homemade-pasta-dough"
   },
+
   {
     "title": "Diner Style Hamburgers",
     "excerpt": "This is the traditional, griddled hamburger of diners and takeaway spots, smashed thin and cooked crisp on its edges",
@@ -416,6 +430,7 @@ var recipesArray = [
     ],
     "name": "summer-hamburger"
   },
+
   {
     "title": "Roasted Butternut Squash Lasagna",
     "highlighted": true,
@@ -447,6 +462,7 @@ var recipesArray = [
     ],
     "name": "fall-roasted-butternut-squash-lasagna"
   },
+
   {
     "title": "Grits Praline & Brown Butter Ice Cream",
     "excerpt": "\"Decadent\" isn’t a word we throw around lightly",
@@ -474,6 +490,7 @@ var recipesArray = [
     ],
     "name": "summer-grits-icecream"
   },
+
   {
     "title": "Peanut Butter Cookie with Salted Peanut Caramel",
     "excerpt": "This recipe takes Peanut Butter Cookies to the next level",
@@ -505,6 +522,7 @@ var recipesArray = [
     ],
     "name": "fall-peanut-butter-cookie"
   },
+
   {
     "title": "Bucatini all' Amatriciana",
     "excerpt": "This dish is named for the town of Amatrice...considered by many Italians to be birthplace of the best cooks on the peninsula",
@@ -529,6 +547,7 @@ var recipesArray = [
     ],
     "name": "fall-amatriciana"
   },
+
   {
     "title": "Orecchiette with red lamb sausage & carrots",
     "excerpt": "Chef di Cucina Matt Abdoo expounded on the virtues of the fundamental building block of Italian cooking: fresh pasta",
@@ -566,6 +585,7 @@ var recipesArray = [
     ],
     "name": "fall-orecchiette-sausage-ragu"
   },
+  
   {
     "title": "Italian Red-Wine Braised Duck w/ Olive Gremolata",
     "highlighted": true,
