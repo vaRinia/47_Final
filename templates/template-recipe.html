@@ -1,14 +1,59 @@
-<a class="item-recipe" href="#">
-  <span class="attribution">
-    <span class="title-recipe"> TITULO DE LA RECETA (ATRIBUTO "title" ) </span>
-    <span class="metadata-recipe">
-      <span class="author-recipe"> NOMBRE DEL AUTO DE LA RECETA (ATRIBUTO "source.name") </span>
-      <span class="bookmarks-recipe">
-        <span class="icon-bookmark"></span> 
-      </span>
+$("<a class='item-recipe' href='#'>
+    <span class='attribution'>
+        <span class='title-recipe'> TITULO DE LA RECETA (ATRIBUTO "title" ) </span>
+        <span class='metadata-recipe'>
+            <span class='author-recipe'> NOMBRE DEL AUTOR DE LA RECETA (ATRIBUTO "source.name") </span>
+            <span class='bookmarks-recipe'>
+                <span class='icon-bookmark'></span>
+            </span>
+        </span>
     </span>
-  </span>
+    <img src="URL DE LA IMAGEN" />
+</a>")
 
-  <img src="URL DE LA IMAGEN" />
-</a>
 
+
+
+
+
+<!--
+$("a").attr({"class": "item-recipe", "href": "#"});
+    $("span").attr("class", "attribution");
+        $("span").attr("class", "title-recipe").text(TITULO DE LA RECETA);
+        $("span").attr("class", "metadata-recipe");
+            $("span").attr("class", "author-recipe").text("NOMBRE DEL AUTOR");
+            $("span").attr("class", "bookmarks-recipe");
+                $("span").attr("class", "icon-bookmark");
+    $("img").attr("src", function() {
+        return "/resources/" + this.title;
+        });
+
+
+
+$("a").attr({"class": "item-recipe", "href": "#"}).append($("span").attr("class", "attribution").append($("span").attr("class", "title-recipe").text("TITULO DE LA RECETA"), $("span").attr("class", "metadata-recipe").append($("span").attr("class", "author-recipe").text("NOMBRE DEL AUTOR"), $("span").attr("class", "bookmarks-recipe").append($("span").attr("class", "icon-bookmark")))), $("img").attr("src", function() { return "/resources/" + this.title}) );
+
+
+var link = $("a").attr({"class": "item-recipe", "href": "#"});
+var span1_1 = $("span").attr("class", "attribution");
+var img1_1 = $("img").attr("src", function() { console.log("yeiii") });
+var span1_1_1 = $("span").attr("class", "title-recipe").text("TITULO DE LA RECETA");
+var span1_1_2 = $("span").attr("class", "metadata-recipe");
+var span1_1_2_1 = $("span").attr("class", "author-recipe").text("NOMBRE DEL AUTOR");
+var span1_1_2_2 = $("span").attr("class", "bookmarks-recipe");
+var span1_1_2_2_1 = $("span").attr("class", "icon-bookmark");
+
+span1_1_2_2_1.appendTo(span1_1_2_2);
+span1_1_2_1.appendTo(span1_1_2);
+span1_1_2_2.appendTo(span1_1_2)
+span1_1_1.appendTo(span1_1);
+span1_1_2.appendTo(span1_1);
+span1_1.appendTo(link);
+img1_1.appendTo(link);
+    -->
+        
+        
+            
+            
+                
+    
+        
