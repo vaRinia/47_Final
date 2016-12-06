@@ -11,6 +11,9 @@ $(".js-show-make").click(function() {
 $(".js-show-recipe").click(function() {
 	$(".page").removeClass("make");
 	$(".js-show-make").removeClass("active");
-	$(".js-show-recipe").addClass("active");
-	
+	$(".js-show-recipe").addClass("active");	
+});
+
+$(".js-back").click(function(){
+	window.location = 'index.html';	
 });
