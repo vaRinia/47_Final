@@ -1,4 +1,5 @@
 $(document).ready(function(){
-  		$(".js-menu").hide();
+	console.log("Hola Irving")
+  	$(".js-menu").hide();
 
 });
