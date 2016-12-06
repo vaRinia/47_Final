@@ -60,6 +60,26 @@ function renderActivities(activitiesArray) {
 */
 function renderActivity(recipe) {
 	console.log(recipe)	;
+	var template = 
+		'<a href="#" class="item-activity">' + 
+			'<span class="attribution">' + 
+				'<span class="avatar">' +
+					'<img src="<%= recipe.userAvatar%>" class="image-avatar">' +
+				'</span>' +
+
+				'<span class="meta">' +
+					'<span class="author"><%=recipe.userName %></span> made ' +
+					'<span class="recipe"><%=recipe.recipeName %></span>: <%=recipe.text %>' +
+					'<span class="location">&mdash; <%=recipe.place %></span>' +
+				'</span>' +
+			'</span>' +
+			'<div class="bg-image" style="background-image: url(&quot;<%= recipe.image%>&quot;);"></div>' +
+		'</a>';
+	var compiled = _.template(template);
+	var li = compiled({recipe:recipe});
+	console.log(recipe)
+	$(li).appendTo(".list-activities");
+	
 }
 
 
